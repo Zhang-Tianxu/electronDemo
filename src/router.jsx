@@ -9,7 +9,7 @@ export default function Router() {
                 <Route path="*" element={<div>error</div>}></Route>
 
                 <Route path="/" element={<div>main</div>}></Route>
-                <Route path="/index" element={<div>index</div>}></Route>
+                <Route path="/index" element={<div><Index></Index></div>}></Route>
 
             </Routes>
         </HashRouter>
